@@ -1,26 +1,348 @@
+
 <!doctype html>
-<html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Teja Sun Tech | Solar Enquiry</title>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teja Sun Tech | Solar Enquiry</title>
+
 <style>
-*{box-sizing:border-box}body{margin:0;background:#f3f7f3;color:#18332b;font-family:system-ui,"Noto Sans Telugu",sans-serif}.wrap{max-width:960px;margin:28px auto;padding:0 16px}.hero{background:linear-gradient(130deg,#10382f,#1d6b50);color:white;border-radius:24px;padding:34px}.hero h1{font-size:clamp(28px,5vw,46px);margin:15px 0}.hero p{line-height:1.7;color:#e4f0e8}.tag{color:#f8d978;font-weight:bold;letter-spacing:2px}.grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:18px;margin-top:18px}.panel{background:white;border:1px solid #dce7df;border-radius:20px;padding:24px}.muted{color:#66766f;font-size:14px;line-height:1.6}.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{display:grid;gap:6px}.full{grid-column:1/-1}label{font-size:13px;font-weight:700}input,select,textarea{width:100%;padding:12px;border:1px solid #d5e1d8;border-radius:10px;font:inherit}button{width:100%;padding:15px;margin-top:16px;background:#f4c95d;border:0;border-radius:11px;font-weight:800;font-size:16px;cursor:pointer}.consent{display:flex;gap:8px;margin-top:14px;font-size:12px;color:#66766f}.consent input{width:auto}.status{display:none;padding:12px;margin-top:12px;border-radius:9px;font-size:13px}.ok{display:block;background:#e8f6eb;color:#155b35}.err{display:block;background:#fff0ed;color:#963b2d}.wait{display:block;background:#eef3fa;color:#294d70}.hp{position:absolute;left:-9999px}@media(max-width:700px){.grid{grid-template-columns:1fr}.fields{grid-template-columns:1fr}.full{grid-column:auto}.hero{padding:25px}}
-</style></head><body><main class="wrap">
-<section class="hero"><div class="tag">TEJA SUN TECH · KAKINADA DISTRICT</div><h1>మీ ఇంటికి సోలార్ విద్యుత్ పరిష్కారాలు ☀️</h1><p>మీ ఇంటికి సోలార్ ప్యానెల్స్ ఏర్పాటు గురించి తెలుసుకోవాలా? మీ వివరాలు పంపండి. Teja Sun Tech మీ enquiryని పరిశీలించి సంప్రదిస్తుంది.</p></section>
-<div class="grid"><section class="panel"><h2>Home Solar Enquiry</h2><p class="muted">ఇంటి అవసరాల కోసం సోలార్ వివరాలు తెలుసుకోవడానికి enquiry పంపండి.</p><p>🏠 Residential rooftop solar enquiries</p><p>📍 కాకినాడ జిల్లా — సేవా పరిధి సంస్థ నిర్ధారణకు లోబడి ఉంటుంది.</p><p>📞 మీ అనుమతితో సంప్రదింపు</p><p class="muted">గమనిక: ధరలు, ఆదా, సబ్సిడీ, అర్హతలు లేదా ఇన్‌స్టాలేషన్‌పై హామీలు ఇవ్వబడవు. సంస్థ నిర్ధారణ తర్వాతే వివరాలు తెలియజేస్తారు.</p></section>
-<section class="panel"><h2>Free Solar Enquiry Form</h2><p class="muted">* ఉన్నవి తప్పనిసరి.</p>
-<form id="f"><div class="hp"><label>Leave blank<input name="website" tabindex="-1"></label></div><div class="fields">
-<div class="field"><label>పూర్తి పేరు *</label><input name="name" required maxlength="80" placeholder="మీ పేరు"></div>
-<div class="field"><label>మొబైల్ నంబర్ *</label><input name="phone" required inputmode="numeric" pattern="[6-9][0-9]{9}" minlength="10" maxlength="10" placeholder="10 అంకెల నంబర్"></div>
-<div class="field"><label>జిల్లా *</label><input name="district" value="కాకినాడ" required></div>
-<div class="field"><label>మండలం / పట్టణం *</label><input name="mandal" required placeholder="మీ మండలం"></div>
-<div class="field"><label>నెలవారీ కరెంట్ బిల్లు *</label><select name="monthly_bill" required><option value="">ఎంచుకోండి</option><option>₹0–₹1,000</option><option>₹1,001–₹2,000</option><option>₹2,001–₹3,000</option><option>₹3,001–₹5,000</option><option>₹5,000 పైగా</option></select></div>
-<div class="field"><label>ఇంటి రకం *</label><select name="house_type" required><option value="">ఎంచుకోండి</option><option>సొంత ఇల్లు</option><option>నిర్మాణంలో ఉన్న ఇల్లు</option><option>ఇతర</option></select></div>
-<div class="field"><label>పైకప్పుపై స్థలం ఉందా? *</label><select name="roof_space" required><option value="">ఎంచుకోండి</option><option>ఉంది</option><option>లేదు</option><option>తెలియదు</option></select></div>
-<div class="field"><label>ఎప్పుడు ఏర్పాటు చేయాలనుకుంటున్నారు? *</label><select name="timeline" required><option value="">ఎంచుకోండి</option><option>వీలైనంత త్వరగా</option><option>1–3 నెలల్లో</option><option>తర్వాత నిర్ణయిస్తాను</option><option>వివరాలు మాత్రమే కావాలి</option></select></div>
-<div class="field full"><label>ప్రాంతం / చిరునామా</label><textarea name="address" rows="2" maxlength="250"></textarea></div></div>
-<label class="consent"><input type="checkbox" name="consent" value="Yes" required><span>నా వివరాలు సరైనవని ధృవీకరిస్తున్నాను. ఈ enquiryకి సంబంధించి Teja Sun Tech నన్ను ఫోన్ లేదా WhatsApp ద్వారా సంప్రదించడానికి అంగీకరిస్తున్నాను.</span></label>
-<button id="b">SUBMIT ENQUIRY →</button><div id="s" class="status" aria-live="polite"></div></form><iframe name="sink" id="sink" style="display:none"></iframe></section></div><p class="muted" style="text-align:center">© Teja Sun Tech · Home Solar Enquiries</p></main>
+*{box-sizing:border-box}
+body{
+  margin:0;background:#f3f7f3;color:#18332b;
+  font-family:system-ui,"Noto Sans Telugu",sans-serif
+}
+.wrap{max-width:960px;margin:28px auto;padding:0 16px}
+.hero{
+  background:linear-gradient(130deg,#10382f,#1d6b50);
+  color:white;border-radius:24px;padding:34px
+}
+.hero h1{font-size:clamp(28px,5vw,46px);margin:15px 0}
+.hero p{line-height:1.7;color:#e4f0e8}
+.tag{color:#f8d978;font-weight:bold;letter-spacing:2px}
+.grid{
+  display:grid;grid-template-columns:.85fr 1.15fr;
+  gap:18px;margin-top:18px
+}
+.panel{
+  background:white;border:1px solid #dce7df;
+  border-radius:20px;padding:24px
+}
+.muted{color:#66766f;font-size:14px;line-height:1.6}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field{display:grid;gap:6px}
+.full{grid-column:1/-1}
+label{font-size:13px;font-weight:700}
+input,select,textarea{
+  width:100%;padding:12px;border:1px solid #d5e1d8;
+  border-radius:10px;font:inherit
+}
+button{
+  width:100%;padding:15px;margin-top:16px;
+  background:#f4c95d;border:0;border-radius:11px;
+  font-weight:800;font-size:16px;cursor:pointer
+}
+button:disabled{opacity:.6;cursor:not-allowed}
+.consent{
+  display:flex;gap:8px;margin-top:14px;
+  font-size:12px;color:#66766f
+}
+.consent input{width:auto}
+.status{
+  display:none;padding:12px;margin-top:12px;
+  border-radius:9px;font-size:13px
+}
+.wait{display:block;background:#eef3fa;color:#294d70}
+.hp{position:absolute;left:-9999px}
+
+/* Popup design */
+.popup-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(0,0,0,.68);z-index:99999;
+  align-items:center;justify-content:center;padding:20px
+}
+.popup-box{
+  background:#fff;width:100%;max-width:390px;
+  padding:30px 24px;border-radius:20px;
+  text-align:center;box-shadow:0 15px 50px rgba(0,0,0,.25);
+  animation:popupShow .25s ease
+}
+.popup-icon{font-size:52px;margin-bottom:10px}
+.popup-box h2{margin:8px 0;color:#155b35;font-size:23px}
+.popup-box p{color:#53645b;line-height:1.8;font-size:15px}
+.popup-box button{
+  background:#155b35;color:white;margin-top:15px
+}
+.popup-box.duplicate h2{color:#a33c2c}
+.popup-box.duplicate button{background:#a33c2c}
+.popup-box.error h2{color:#a33c2c}
+.popup-box.error button{background:#a33c2c}
+@keyframes popupShow{
+  from{transform:scale(.85);opacity:0}
+  to{transform:scale(1);opacity:1}
+}
+
+@media(max-width:700px){
+  .grid{grid-template-columns:1fr}
+  .fields{grid-template-columns:1fr}
+  .full{grid-column:auto}
+  .hero{padding:25px}
+}
+</style>
+</head>
+
+<body>
+<main class="wrap">
+
+<section class="hero">
+  <div class="tag">TEJA SUN TECH · KAKINADA DISTRICT</div>
+  <h1>మీ ఇంటికి సోలార్ విద్యుత్ పరిష్కారాలు ☀️</h1>
+  <p>
+    మీ ఇంటికి సోలార్ ప్యానెల్స్ ఏర్పాటు గురించి తెలుసుకోవాలా?
+    మీ వివరాలు పంపండి. Teja Sun Tech మీ enquiryని పరిశీలించి సంప్రదిస్తుంది.
+  </p>
+</section>
+
+<div class="grid">
+
+<section class="panel">
+  <h2>Home Solar Enquiry</h2>
+  <p class="muted">ఇంటి అవసరాల కోసం సోలార్ వివరాలు తెలుసుకోవడానికి enquiry పంపండి.</p>
+  <p>🏠 Residential rooftop solar enquiries</p>
+  <p>📍 కాకినాడ జిల్లా — సేవా పరిధి సంస్థ నిర్ధారణకు లోబడి ఉంటుంది.</p>
+  <p>📞 మీ అనుమతితో సంప్రదింపు</p>
+  <p class="muted">
+    గమనిక: ధరలు, ఆదా, సబ్సిడీ, అర్హతలు లేదా ఇన్‌స్టాలేషన్‌పై
+    హామీలు ఇవ్వబడవు. సంస్థ నిర్ధారణ తర్వాతే వివరాలు తెలియజేస్తారు.
+  </p>
+</section>
+
+<section class="panel">
+  <h2>Free Solar Enquiry Form</h2>
+  <p class="muted">* ఉన్నవి తప్పనిసరి.</p>
+
+  <form id="f">
+    <div class="hp">
+      <label>Leave blank
+        <input name="website" tabindex="-1" autocomplete="off">
+      </label>
+    </div>
+
+    <div class="fields">
+
+      <div class="field">
+        <label>పూర్తి పేరు *</label>
+        <input name="name" required maxlength="80" placeholder="మీ పేరు">
+      </div>
+
+      <div class="field">
+        <label>మొబైల్ నంబర్ *</label>
+        <input name="phone" required inputmode="numeric"
+          pattern="[6-9][0-9]{9}" minlength="10" maxlength="10"
+          placeholder="10 అంకెల నంబర్">
+      </div>
+
+      <div class="field">
+        <label>జిల్లా *</label>
+        <input name="district" value="కాకినాడ" required>
+      </div>
+
+      <div class="field">
+        <label>మండలం / పట్టణం *</label>
+        <input name="mandal" required placeholder="మీ మండలం">
+      </div>
+
+      <div class="field">
+        <label>నెలవారీ కరెంట్ బిల్లు *</label>
+        <select name="monthly_bill" required>
+          <option value="">ఎంచుకోండి</option>
+          <option>₹0–₹1,000</option>
+          <option>₹1,001–₹2,000</option>
+          <option>₹2,001–₹3,000</option>
+          <option>₹3,001–₹5,000</option>
+          <option>₹5,000 పైగా</option>
+        </select>
+      </div>
+
+     <div class="field full">
+  <label>ఇంటి రకం *</label>
+  <select name="house_type" required>
+    <option value="">ఎంచుకోండి</option>
+    <option>సొంత ఇల్లు</option>
+    <option>నిర్మాణంలో ఉన్న ఇల్లు</option>
+  </select>
+</div>
+
+<input type="hidden" name="roof_space" value="తొలగించబడింది">
+
+      <div class="field">
+        <label>ఎప్పుడు ఏర్పాటు చేయాలనుకుంటున్నారు? *</label>
+        <select name="timeline" required>
+          <option value="">ఎంచుకోండి</option>
+          <option>వీలైనంత త్వరగా</option>
+          <option>1–3 నెలల్లో</option>
+          <option>తర్వాత నిర్ణయిస్తాను</option>
+          <option>వివరాలు మాత్రమే కావాలి</option>
+        </select>
+      </div>
+
+      <div class="field full">
+        <label>ప్రాంతం / చిరునామా</label>
+        <textarea name="address" rows="2" maxlength="250"></textarea>
+      </div>
+
+    </div>
+
+    <label class="consent">
+      <input type="checkbox" name="consent" value="Yes" required>
+      <span>
+        నా వివరాలు సరైనవని ధృవీకరిస్తున్నాను. ఈ enquiryకి సంబంధించి
+        Teja Sun Tech నన్ను ఫోన్ లేదా WhatsApp ద్వారా సంప్రదించడానికి
+        అంగీకరిస్తున్నాను.
+      </span>
+    </label>
+
+    <button id="b" type="submit">SUBMIT ENQUIRY →</button>
+    <div id="s" class="status" aria-live="polite"></div>
+  </form>
+
+  <iframe name="sink" id="sink" style="display:none"></iframe>
+</section>
+</div>
+
+<p class="muted" style="text-align:center">
+  © Teja Sun Tech · Home Solar Enquiries
+</p>
+</main>
+
+<!-- Acknowledgement Popup -->
+<div id="popup" class="popup-overlay" role="dialog"
+  aria-modal="true" aria-labelledby="popupTitle">
+  <div id="popupBox" class="popup-box">
+    <div id="popupIcon" class="popup-icon">✅</div>
+    <h2 id="popupTitle">ధన్యవాదాలు!</h2>
+    <p id="popupMessage"></p>
+    <button type="button" id="popupOk">OK</button>
+  </div>
+</div>
+
 <script>
-const WEB_APP_URL="https://script.google.com/macros/s/AKfycbzRBsJxufE9GZDljDEFUZsM7Xu1OY3sp_GNbXIB_w5yKFGSsjHORgsnlKxGq9Z40EvL/exec";
-const f=document.getElementById('f'),b=document.getElementById('b'),s=document.getElementById('s');let busy=false;
-window.addEventListener('message',e=>{if(!e.data||e.data.type!=='tejaSolarLeadResult')return;busy=false;b.disabled=false;b.textContent='SUBMIT ENQUIRY →';if(e.data.status==='success'){s.className='status ok';s.textContent='మీ enquiry విజయవంతంగా అందింది. ధన్యవాదాలు!';f.reset();f.elements.district.value='కాకినాడ'}else{s.className='status err';s.textContent=e.data.status==='duplicate'?'ఈ నంబర్‌తో ఇటీవల enquiry అందింది.':'Enquiry పంపడంలో సమస్య వచ్చింది. మళ్లీ ప్రయత్నించండి.'}});
-f.addEventListener('submit',e=>{e.preventDefault();if(WEB_APP_URL.includes('PASTE_YOUR')){s.className='status err';s.textContent='ముందుగా Google Apps Script Web App URL కనెక్ట్ చేయాలి.';return}if(busy)return;busy=true;b.disabled=true;b.textContent='పంపిస్తోంది...';s.className='status wait';s.textContent='దయచేసి వేచి ఉండండి...';let p=document.createElement('form');p.method='POST';p.action=WEB_APP_URL;p.target='sink';for(let [k,v] of new FormData(f)){let i=document.createElement('input');i.type='hidden';i.name=k;i.value=v;p.appendChild(i)}document.body.appendChild(p);p.submit();p.remove();setTimeout(()=>{if(busy){busy=false;b.disabled=false;b.textContent='SUBMIT ENQUIRY →';s.className='status wait';s.textContent='సమర్పణ స్థితి నిర్ధారించబడలేదు. మళ్లీ పంపే ముందు మీ వివరాలు నమోదు అయ్యాయో పరిశీలించండి.'}},10000)});
-</script></body></html>
+const WEB_APP_URL =
+"https://script.google.com/macros/s/AKfycbzRBsJxufE9GZDljDEFUZsM7Xu1OY3sp_GNbXIB_w5yKFGSsjHORgsnlKxGq9Z40EvL/exec";
+
+const f = document.getElementById('f');
+const b = document.getElementById('b');
+const s = document.getElementById('s');
+const popup = document.getElementById('popup');
+const popupBox = document.getElementById('popupBox');
+const popupIcon = document.getElementById('popupIcon');
+const popupTitle = document.getElementById('popupTitle');
+const popupMessage = document.getElementById('popupMessage');
+
+let busy = false;
+let requestTimer = null;
+
+function showPopup(type) {
+  popupBox.className = 'popup-box';
+
+  if (type === 'success') {
+    popupIcon.textContent = '✅';
+    popupTitle.textContent = 'Enquiry Submitted Successfully!';
+    popupMessage.textContent =
+      'ధన్యవాదాలు! మీ వివరాలు విజయవంతంగా అందాయి. Teja Sun Tech ప్రతినిధి త్వరలో మిమ్మల్ని సంప్రదిస్తారు.';
+
+    f.reset();
+    f.elements.district.value = 'కాకినాడ';
+
+  } else if (type === 'duplicate') {
+    popupBox.classList.add('duplicate');
+    popupIcon.textContent = '⚠️';
+    popupTitle.textContent = 'Already Submitted!';
+    popupMessage.textContent =
+      'ఈ మొబైల్ నంబర్‌తో ఇప్పటికే Enquiry ఇచ్చారు. మీ వివరాలు మా వద్ద ఉన్నాయి. మా ప్రతినిధి త్వరలో మిమ్మల్ని సంప్రదిస్తారు.';
+
+  } else {
+    popupBox.classList.add('error');
+    popupIcon.textContent = '❌';
+    popupTitle.textContent = 'Submission Failed!';
+    popupMessage.textContent =
+      'Enquiry పంపడంలో సమస్య వచ్చింది. దయచేసి మళ్లీ ప్రయత్నించండి.';
+  }
+
+  popup.style.display = 'flex';
+  document.getElementById('popupOk').focus();
+}
+
+function closePopup() {
+  popup.style.display = 'none';
+}
+
+document.getElementById('popupOk').addEventListener('click', closePopup);
+
+popup.addEventListener('click', function(e) {
+  if (e.target === popup) closePopup();
+});
+
+window.addEventListener('message', function(e) {
+  if (!e.data || e.data.type !== 'tejaSolarLeadResult') return;
+  if (!busy) return;
+
+  clearTimeout(requestTimer);
+  busy = false;
+  b.disabled = false;
+  b.textContent = 'SUBMIT ENQUIRY →';
+  s.style.display = 'none';
+
+  showPopup(e.data.status);
+});
+
+f.addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  if (!f.reportValidity()) return;
+  if (busy) return;
+
+  if (!WEB_APP_URL || WEB_APP_URL.includes('PASTE_YOUR')) {
+    showPopup('error');
+    return;
+  }
+
+  busy = true;
+  b.disabled = true;
+  b.textContent = 'పంపిస్తోంది...';
+
+  s.className = 'status wait';
+  s.textContent = 'మీ వివరాలు పంపిస్తున్నాం. దయచేసి వేచి ఉండండి...';
+
+  const p = document.createElement('form');
+  p.method = 'POST';
+  p.action = WEB_APP_URL;
+  p.target = 'sink';
+
+  for (const [k, v] of new FormData(f)) {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = k;
+    input.value = v;
+    p.appendChild(input);
+  }
+
+  document.body.appendChild(p);
+  p.submit();
+  p.remove();
+
+  requestTimer = setTimeout(function() {
+    if (!busy) return;
+
+    busy = false;
+    b.disabled = false;
+    b.textContent = 'SUBMIT ENQUIRY →';
+
+    s.className = 'status wait';
+    s.textContent =
+      'స్పందన ఆలస్యమవుతోంది. మళ్లీ Submit చేసే ముందు Google Sheetలో వివరాలు చేరాయో లేదో పరిశీలించండి.';
+  }, 30000);
+});
+</script>
+</body>
+</html>
