@@ -1,0 +1,14 @@
+తెలుగులో సెటప్ సూచనలు
+
+1. https://script.google.com/ ఓపెన్ చేసి నీ Google Accountతో Sign in అవ్వు.
+2. New Project ఎంచుకో. Code.gsలోని కోడ్ మొత్తాన్ని Apps Script editorలో paste చేసి Save చేయి.
+3. Function dropdownలో setup ఎంచుకుని Run నొక్కు. Google permissions అడిగితే Allow ఇవ్వు.
+4. Execution logలో LEADS_SHEET_URL కనిపిస్తుంది. దాన్ని తెరిచి Google Sheet తయారైందో చూడు. Sheetను Public చేయవద్దు.
+5. Deploy > New deployment > Web app ఎంచుకో.
+6. Execute as: Me, Who has access: Anyone ఎంచుకుని Deploy చేయి.
+7. వచ్చిన Web App URL చివర /exec ఉంటుంది. దాన్ని copy చేయి.
+8. index.htmlలో PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE స్థానంలో ఆ URL paste చేసి Save చేయి.
+9. index.htmlని Netlify లేదా మరో HTTPS hostingలో upload చేయి. వచ్చిన website linkని Instagram Bioలో పెట్టు.
+10. ముందుగా నీ స్వంత నంబర్‌తో test enquiry పంపు. Google Sheetలో row వచ్చిందా, naduentertainments@gmail.comకి mail వచ్చిందా నిర్ధారించుకో.
+
+గమనిక: Email, Apps Script deploy చేసిన Google Account ద్వారా వెళ్తుంది. Google email quota వర్తిస్తుంది. ఇది OTP కాదు; మొబైల్ నంబర్ format మాత్రమే validate అవుతుంది. ఒకే నంబర్‌తో 24 గంటల్లో మళ్లీ enquiry పంపితే duplicateగా ఆపుతుంది. Sheetను Public చేయవద్దు. Teja Sun Tech అనుమతి తీసుకుని మాత్రమే public చేయి.
